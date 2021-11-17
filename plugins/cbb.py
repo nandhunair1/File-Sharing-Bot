@@ -56,7 +56,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("👩‍🦯 Back", callback_data= "about")
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("🔒 Close", callback_data = "close"),
                     ]
                 ]
             )
