@@ -12,4 +12,14 @@ class script(object):
 <b>Update Channel:</b>
 - <a href=https://t.me/tvseriezzz_update>All In One Update</a>"""
 HELP_TXT = """𝙷𝙴𝚈 {first}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.
+
+/start - start the bot or get posts
+
+/batch - create link for more than one posts
+
+/genlink - create link for one post
+
+/users - view bot statistics
+
+/broadcast - broadcast any messages to bot users."""
