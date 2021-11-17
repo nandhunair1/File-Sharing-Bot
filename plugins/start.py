@@ -90,7 +90,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/tvseriezzz"),
+                    InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", callback_data = "help"),
                     InlineKeyboardButton("⭕️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⭕️", url="https://t.me/tvseriezzz_update")
                 ],
                 [
@@ -199,3 +199,13 @@ Unsuccessful: <code>{unsuccessful}</code></b>"""
         msg = await message.reply(REPLY_ERROR)
         await asyncio.sleep(8)
         await msg.delete()
+@Bot.on_message(filters.command('help'))
+async def send_text(client: Bot, message: Message):
+    buttons = [
+        [
+            InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
+            InlineKeyboardButton('Source Code', url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2')
+        ]
+        ]
+    await message.reply(text="<b>Developer</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+
