@@ -1,7 +1,6 @@
 #(©)CodeXBotz
 import os
 import asyncio
-from Script import script
 from pyrogram import Client, filters, __version__
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
