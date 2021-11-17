@@ -28,7 +28,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
 
 @Bot.on_callback_query()
-async def cb_handler(client: Bot, query: CallbackQuery):
+async def cb_handler(client: Bot):
     data = query.data
     if data == "help":
         await query.message.edit_text(
