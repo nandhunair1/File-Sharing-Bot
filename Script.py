@@ -1,5 +1,5 @@
 class script(object):
-START_TXT = """𝙷𝙴𝙻𝙻𝙾 {first} 😊,
+START_TXT = """𝙷𝙴𝙻𝙻𝙾 {} 😊,
 
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/tvseriezzz_bot'>𝙰𝚕𝚊𝚗 𝚆𝚊𝚕𝚔𝚎𝚛</a>,
 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝚁𝙸𝙴𝚂 😍
@@ -16,7 +16,7 @@ START_TXT = """𝙷𝙴𝙻𝙻𝙾 {first} 😊,
 - Support Group - <a href=https://t.me/tvseriezzz>All In One Group</a> 
 <b>Update Channel:</b>
 - <a href=https://t.me/tvseriezzz_update>All In One Update</a>"""
-HELP_TXT = """𝙷𝙴𝚈 {first}
+HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.
 
 /start - start the bot or get posts
